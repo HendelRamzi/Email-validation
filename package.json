@@ -1,0 +1,29 @@
+{
+  "name": "email-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HendelRamzi/Email-validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HendelRamzi/Email-validation/issues"
+  },
+  "homepage": "https://github.com/HendelRamzi/Email-validation#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.21.6"
+  }
+}
